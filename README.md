@@ -3,7 +3,7 @@
 An AI system that analyzes business problems and suggests relevant features from the Filum.ai platform using RAG (Retrieval Augmented Generation) approach.
 
 ## Overview
-
+![Sơ đồ workflow](Flow.png)
 This system:
 - Analyzes business pain points
 - Matches problems with relevant features
@@ -66,3 +66,4 @@ python agentic_rag_agent.py
 
 Chien Nguyen
 Email: Nguyentatchien9564@gmail.com
+
