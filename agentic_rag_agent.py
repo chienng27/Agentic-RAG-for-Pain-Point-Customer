@@ -9,7 +9,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.retrievers import BaseRetriever
 from langgraph.graph import StateGraph, END
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDx3x1i-u29wdjYHU7l8Cqc7Zj5KZM-tAQ"
+os.environ["GOOGLE_API_KEY"] = ""
 
 class AgentState(TypedDict):
     pain_point: str
