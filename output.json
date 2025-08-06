@@ -1,0 +1,65 @@
+{
+  "pain_point": "We're struggling to collect customer feedback consistently after a purchase.",
+  "deconstructed": null,
+  "best_feature": null,
+  "selected_features": [],
+  "evaluation_results": null,
+  "resolution_tracking": null,
+  "alternative_suggestions": [],
+  "summary": null,
+  "current_step": "needs_clarification",
+  "error": null,
+  "thoughts": [
+    "Validating clarity of pain point: We're struggling to collect customer feedback consistently after a purchase."
+  ],
+  "actions": [],
+  "observations": [
+    "Question clarity score: 4/10"
+  ],
+  "should_continue_search": false,
+  "search_iteration": 0,
+  "max_iterations": 1,
+  "unresolved_problems": [],
+  "final_output": null,
+  "current_search_term": null,
+  "candidate_features": [],
+  "clarity_score": 4,
+  "clarifying_questions": [
+    {
+      "question": "What methods are you currently using to collect customer feedback post-purchase? (Select all that apply)",
+      "options": [
+        "Email surveys",
+        "In-app feedback forms",
+        "Phone calls",
+        "Social media monitoring",
+        "Review platforms (e.g., Google Reviews, Yelp)",
+        "None of the above"
+      ],
+      "category": "VoC"
+    },
+    {
+      "question": "What is the primary reason for the inconsistency in feedback collection? (Select one)",
+      "options": [
+        "Low response rates to surveys/feedback requests",
+        "Lack of a centralized system for collecting feedback from various channels",
+        "Difficulty in analyzing the collected feedback effectively",
+        "Insufficient resources (time, personnel) dedicated to feedback collection",
+        "Other (please specify)"
+      ],
+      "category": "Insights"
+    },
+    {
+      "question": "What are your goals for improving customer feedback collection?  (Select all that apply)",
+      "options": [
+        "Increase the volume of feedback received",
+        "Improve the quality and actionability of feedback",
+        "Gain a better understanding of customer satisfaction",
+        "Identify areas for product improvement",
+        "Proactively address customer issues before they escalate",
+        "Improve customer service efficiency"
+      ],
+      "category": "AI Customer Service & Insights"
+    }
+  ],
+  "needs_clarification": true
+}

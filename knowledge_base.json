@@ -1,0 +1,145 @@
+[
+  {
+    "feature_id": "VOC_JOURNEYS",
+    "feature_name": "VoC - Journeys",
+    "description": "Map and visualize the entire customer journey to identify key touchpoints, pain points, and moments of truth across all channels.",
+    "keywords": ["customer journey", "touchpoint mapping", "user flow", "experience map", "CX journey"],
+    "pain_points_solved": [
+      "don't understand the full customer path",
+      "losing customers at specific steps",
+      "inconsistent experience across channels",
+      "unable to identify key interaction points"
+    ],
+    "link": "/features/voc-journeys"
+  },
+  {
+    "feature_id": "VOC_SURVEYS",
+    "feature_name": "VoC - Surveys",
+    "description": "Design and deploy surveys across Web, Mobile, Zalo, SMS, Email, QR, POS to collect customer feedback.",
+    "keywords": ["collect feedback", "survey", "customer opinion", "NPS", "CSAT", "post-purchase"],
+    "pain_points_solved": [
+      "struggling to collect feedback",
+      "low survey response rate",
+      "don't know what customers think after purchase",
+      "manual feedback collection"
+    ],
+    "link": "/features/voc-surveys"
+  },
+  {
+    "feature_id": "VOC_REVIEWS",
+    "feature_name": "VoC - Reviews",
+    "description": "Aggregate and analyze reviews from various public platforms like Google, social media, and e-commerce sites in one dashboard.",
+    "keywords": ["online reviews", "reputation management", "sentiment analysis", "product feedback", "social listening"],
+    "pain_points_solved": [
+      "overwhelmed by reviews on many sites",
+      "don't know our public reputation",
+      "manually tracking competitor reviews",
+      "negative reviews are not handled promptly"
+    ],
+    "link": "/features/voc-reviews"
+  },
+  {
+    "feature_id": "VOC_CONVERSATIONS",
+    "feature_name": "VoC - Conversations",
+    "description": "Listen to and analyze customer interactions from chat, calls, and emails to automatically uncover topics, sentiment, and emerging issues.",
+    "keywords": ["conversation analysis", "speech analytics", "call transcription", "email analysis", "support interaction"],
+    "pain_points_solved": [
+      "don't know why customers are contacting support",
+      "high call volume with unknown reasons",
+      "missed insights from support conversations",
+      "manual quality assurance for calls/chats"
+    ],
+    "link": "/features/voc-conversations"
+  },
+  {
+    "feature_id": "SERVICE_AI_INBOX",
+    "feature_name": "AI Customer Service - AI Inbox",
+    "description": "A streamlined omnichannel contact center where human agents collaborate with AI agents to resolve customer queries efficiently.",
+    "keywords": ["omnichannel inbox", "contact center", "live chat", "AI agent", "chatbot", "customer support"],
+    "pain_points_solved": [
+      "agents are overwhelmed by repetitive questions",
+      "slow response times for customers",
+      "inconsistent answers from different agents",
+      "support staff burnout"
+    ],
+    "link": "/features/ai-inbox"
+  },
+  {
+    "feature_id": "SERVICE_TICKETS",
+    "feature_name": "AI Customer Service - Tickets",
+    "description": "A comprehensive ticket management system to track, manage, escalate, and resolve customer issues efficiently with SLA monitoring.",
+    "keywords": ["helpdesk", "ticketing system", "issue tracking", "SLA management", "case management"],
+    "pain_points_solved": [
+      "losing track of customer issues",
+      "no visibility into issue resolution time",
+      "difficult to collaborate on complex problems",
+      "unclear issue ownership"
+    ],
+    "link": "/features/service-tickets"
+  },
+  {
+    "feature_id": "INSIGHTS_EXPERIENCE",
+    "feature_name": "Insights - Experience",
+    "description": "Aggregates all feedback sources to understand customer experiences with detailed topic, sentiment, and root cause analysis.",
+    "keywords": ["CX analytics", "root cause analysis", "sentiment trend", "topic modeling", "customer feedback analysis"],
+    "pain_points_solved": [
+      "have lots of data but no insights",
+      "don't know the root cause of customer dissatisfaction",
+      "can't prioritize business improvements",
+      "feedback is in silos"
+    ],
+    "link": "/features/insights-experience"
+  },
+  {
+    "feature_id": "INSIGHTS_OPERATION",
+    "feature_name": "Insights - Operation",
+    "description": "Monitor the performance and efficiency of surveys, engagement campaigns, contact center agents, and ticket resolution.",
+    "keywords": ["operational dashboard", "performance monitoring", "agent productivity", "campaign ROI", "SLA tracking"],
+    "pain_points_solved": [
+      "don't know if our support team is effective",
+      "can't measure campaign success",
+      "no visibility into team performance",
+      "unable to track SLA compliance"
+    ],
+    "link": "/features/insights-operation"
+  },
+  {
+    "feature_id": "CUSTOMER_360_CUSTOMERS",
+    "feature_name": "Customer 360 - Customers",
+    "description": "A unified customer database (CDP) to manage the entire customer base, view complete profiles, and perform advanced segmentation.",
+    "keywords": ["customer data platform", "CDP", "single customer view", "segmentation", "customer profile"],
+    "pain_points_solved": [
+      "customer data is scattered in different systems",
+      "can't get a single view of the customer",
+      "struggling with personalized marketing",
+      "don't know who my best customers are"
+    ],
+    "link": "/features/customer-360-customers"
+  },
+  {
+    "feature_id": "CUSTOMER_360_ENGAGEMENT",
+    "feature_name": "Customer 360 - Engagement",
+    "description": "Run personalized engagement campaigns (e.g., promotions, announcements, follow-ups) via channels like Email, SMS, Zalo.",
+    "keywords": ["marketing automation", "customer engagement", "email campaign", "omnichannel marketing", "promotions"],
+    "pain_points_solved": [
+      "low customer loyalty and high churn rate",
+      "generic, untargeted marketing messages",
+      "can't react to customer behavior automatically",
+      "manual campaign execution"
+    ],
+    "link": "/features/customer-360-engagement"
+  },
+  {
+    "feature_id": "AUTOMATION_SETTINGS",
+    "feature_name": "AI & Automation - Settings",
+    "description": "Configure AI models, build powerful automation workflows (e.g., if low NPS -> create ticket), and manage system integrations.",
+    "keywords": ["workflow automation", "AI configuration", "system settings", "integrations", "rules engine", "if-this-then-that"],
+    "pain_points_solved": [
+      "too many repetitive manual tasks",
+      "different systems are not connected",
+      "need to customize AI behavior",
+      "slow internal processes and handoffs"
+    ],
+    "link": "/features/automation-settings"
+  }
+]
