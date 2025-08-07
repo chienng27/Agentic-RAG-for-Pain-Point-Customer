@@ -1,3 +1,4 @@
+   # Do thời gian có hạn , nên em sẽ triển khai trước với 1 pain point cụ thể mà sẽ chưa có tính năng quy mô doanh nghiệp
 import os
 import json
 from typing import Dict, List, Any, Optional, TypedDict, Annotated
@@ -9,7 +10,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.retrievers import BaseRetriever
 from langgraph.graph import StateGraph, END
 
-os.environ["GOOGLE_API_KEY"] = ""
+os.environ["GOOGLE_API_KEY"] = "AIzaSyA1w3q99Hrmq6__OqnBeo6F3LszkzvlUiw"
 
 class AgentState(TypedDict):
     pain_point: str
@@ -524,11 +525,15 @@ class EnhancedFeatureResolutionAgent:
                     
                     how_it_helps = how_it_helps_result.content.strip()
                     
+                    # Extract category from feature_name (part before the dash)
+                    category = feature_name.split(" - ")[0] if " - " in feature_name else "Other"
+                    
                     suggested_solutions.append({
                         "feature_name": feature_name,
                         "how_it_helps": how_it_helps,
                         "relevance_score": round(feature.get("confidence_score", 0), 2),
-                        "link_to_info": link
+                        "link_to_info": link,
+                        "category": category
                     })
                 suggested_solutions.sort(key=lambda x: x["relevance_score"], reverse=True)
         
@@ -549,10 +554,7 @@ class EnhancedFeatureResolutionAgent:
             
             return {
                 **state,
-                "final_output": final_output,
-                "current_step": "output_formatted",
-                "thoughts": state.get("thoughts", []) + [thought],
-                "observations": state.get("observations", []) + [observation]
+                "final_output": final_output
             }
         except Exception as e:
             return {
@@ -644,7 +646,15 @@ class EnhancedFeatureResolutionAgent:
 
 if __name__ == "__main__":
     agent = EnhancedFeatureResolutionAgent(max_search_iterations=1)
-    pain_point = "Our support agents are overwhelmed by the high volume of repetitive questions."
+
+
+
+    # Do thời gian có hạn , nên em sẽ triển khai trước với 1 pain point cụ thể mà sẽ chưa có tính năng quy mô doanh nghiệp
+    pain_point = "We struggle to collect customer feedback after purchases."
+
+
+
+
     result = agent.analyze_pain_point(pain_point)
     
     if result.get("validation_message"):
@@ -652,5 +662,5 @@ if __name__ == "__main__":
         print(result["validation_message"])
     else:
         with open("output.json", "w", encoding="utf-8") as f:
-            json.dump(result, f, ensure_ascii=False, indent=2)
+            json.dump(result["final_output"], f, ensure_ascii=False, indent=2)
 
